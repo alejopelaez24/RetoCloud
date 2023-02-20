@@ -5,3 +5,6 @@
 azure-functions
 pandas
 requests
+azure.storage.blob
+pyarrow
+fastparquet
