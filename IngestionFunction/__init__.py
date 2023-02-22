@@ -4,9 +4,6 @@ import pandas as pd
 import azure.functions as func
 import os
 from azure.storage.blob import BlobServiceClient
-import pyarrow as pa
-import pyarrow.parquet as pq  
-
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
