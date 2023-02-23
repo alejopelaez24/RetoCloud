@@ -1,9 +1,5 @@
 import logging
-#import requests
-#import pandas as pd
 import azure.functions as func
-#import os
-#from azure.storage.blob import BlobServiceClient
 from IngestionFunction import functions as rf
 
 
