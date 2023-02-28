@@ -6,7 +6,7 @@ from IngestionFunction import functions as rf
 def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
         logging.info('Python HTTP trigger function processed a request.')
-        actionList = ["CRM", "AMZN"]  # "AAPL", "MSFT", "TSLA", "MSTR", "META",
+        actionList = ["AAPL", "MSFT", "TSLA", "MSTR", "META",  "CRM", "AMZN"] 
         apikey = "4EVM3NBBM0PCESWU"
         interval = "60min"
         for x in actionList:
